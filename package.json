@@ -1,0 +1,26 @@
+{
+  "name": "node-am2320",
+  "version": "1.0.0",
+  "description": "Module for reading the raw data from AM2320",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frah/node-am2320.git"
+  },
+  "keywords": [
+    "i2c",
+    "am2320"
+  ],
+  "author": "frah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frah/node-am2320/issues"
+  },
+  "homepage": "https://github.com/frah/node-am2320#readme",
+  "dependencies": {
+    "i2c": "^0.2.3"
+  }
+}
