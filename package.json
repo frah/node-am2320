@@ -1,6 +1,6 @@
 {
-  "name": "AM2320",
-  "version": "1.0.0",
+  "name": "am2320",
+  "version": "0.0.1",
   "description": "Module for reading the raw data from AM2320",
   "main": "index.js",
   "scripts": {
