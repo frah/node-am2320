@@ -1,12 +1,12 @@
 node-am2320
 ===========
 
-Module for reading the raw data from AM2320
+Module for reading the raw data from AM2320. Extended frah-am2320 and added a bulk read function. 
 
 Install
 -------
 ```
-$ npm install am2320
+$ npm install am2320b
 ```
 
 Usage
@@ -23,4 +23,8 @@ sensor.readHumidity()
   .then(function(hum) {
     console.log('Humidity: ' + hum + ' %');
   });
+sensor.readBulk()
+  .then(function(result){
+    console.log('Humidity: '+ result.hum + ' % Temperature:'+ result.temp); 
+});
 ```
